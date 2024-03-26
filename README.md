@@ -48,7 +48,7 @@ Projeto desenvolvido para criação gráficos e tabelas no Google Sheets, manipu
 
 ---  
 
-#### ANÁLISE DE DADOS COM BIBLIOTECA PANDAS DO PYTHON  
+#### 💻 ANÁLISE DE DADOS COM BIBLIOTECA PANDAS DO PYTHON  
 <img src='https://github.com/rosacarla/graficos-e-analises-com-Google-Colab-e-Python-Pandas/blob/main/images/aula02-python.png'>   
 
 ☑️ Ver [NOTEBOOK no Google Colab](https://github.com/rosacarla/graficos-e-analises-com-Google-Colab-e-Python-Pandas/blob/main/Imersao_Python_Aula02.ipynb).  
