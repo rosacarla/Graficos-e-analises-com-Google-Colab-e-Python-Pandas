@@ -1,15 +1,17 @@
 #### 📈 GRÁFICOS E ANÁLISES COM GOOGLE COLAB E PYTHON PANDAS
 
-Projeto desenvolvido para criação gráficos e tabelas no Google Sheets, manipulação de dados com Python Pandas pelo Google Colab.
+Projeto desenvolvido para criação gráficos e tabelas no Google Sheets, manipulação de dados com Python Pandas pelo Google Colab.  
 É uma proposta de trabalho feita na <i>Imersão Python: Do Excel à Análise de Dados</i>, promovida pela Alura.    
 
-<img src=''>  
+<img src='https://github.com/rosacarla/graficos-e-analises-com-Google-Colab-e-Python-Pandas/blob/main/images/aula02.png'>  
 
 ---
 
 #### 📄 FÓRMULAS DO GOOGLE SHEETS PARA ANÁLISE DE DADOS E GRÁFICOS  
 
-1) Criação de tabelas com Métricas da coluna Variação R$
+<img src='https://github.com/rosacarla/graficos-e-analises-com-Google-Colab-e-Python-Pandas/blob/main/images/aula02-graficos.png'>  
+
+1) Criação de tabela com Métricas da coluna Variação R$
 - maior variação: `=MAIOR(Principal!O:O;1)`
 - menor variação: `=MENOR(Principal!O:O; 1)`
 - média da variação: `=MÉDIA(Principal!O:O)`
@@ -37,18 +39,17 @@ Projeto desenvolvido para criação gráficos e tabelas no Google Sheets, manipu
 ---  
 
 #### 🧠 DESAFIO DA AULA 2
-<img src=''> 
 
 - Crie um gráfico de barras olhando a faixa etária e o valor da variação;
 - Faça outro gráfico de barras com a faixa etária e a quantidade de empresas que estão em cada faixa etária;
 - Explore os tipos de gráficos com os dados já feitos.
 
-<img src=''>  
+<img src='https://github.com/rosacarla/graficos-e-analises-com-Google-Colab-e-Python-Pandas/blob/main/images/aula02-graficos-desafio.png'>  
 
 ---  
 
 #### ANÁLISE DE DADOS COM BIBLIOTECA PANDAS DO PYTHON  
-<img src=''>   
+<img src='https://github.com/rosacarla/graficos-e-analises-com-Google-Colab-e-Python-Pandas/blob/main/images/aula02-python.png'>   
 
 ☑️ Ver [notebook no Google Colab]().  
 
