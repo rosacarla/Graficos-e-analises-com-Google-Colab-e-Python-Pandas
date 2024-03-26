@@ -1,9 +1,9 @@
-#### 📈 ANÁLISE EXPLORATÓRIA COM GOOGLE SHEETS
+#### 📈 GRÁFICOS E ANÁLISES COM GOOGLE COLAB E PYTHON PANDAS
 
-Projeto desenvolvido para análise da base de dados da bolsa de valores explorando o aplicativo Google Sheets, com PROCV (ou VLOOKUP), SE (ou IF) e ChatGPT.  
+Projeto desenvolvido para ....  
 É uma proposta de trabalho feita na <i>Imersão Python: Do Excel à Análise de Dados</i>, promovida pela Alura.    
 
-<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01.png'>  
+<img src=''>  
 
 ---
 
@@ -14,23 +14,23 @@ Projeto desenvolvido para análise da base de dados da bolsa de valores exploran
 - `Variação R$` =(Último R$ - Valor inicial (R$)) * Quantidade de ações
 - `Resultado` =SE(Variação R$>0;"Subiu";SE(Variação R$<0;"Desceu";"Estável"))
 
-☑️ Ver [resolução](https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/Resolucao%20-%20Imersao%20Python%20-%20Tabela%20de%20acoes.xlsx).
+☑️ Ver [resolução]().
 
 ---  
 
 #### 💬PROMPT DO CHATGPT PARA CRIAR NOVAS COLUNAS  
-<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01-chatgpt.png'>  
+<img src=''>  
 
 ---  
 
-#### 🧠 DESAFIO DA AULA 1
-<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01-desafio.png'> 
+#### 🧠 DESAFIO DA AULA 2
+<img src=''> 
 
-- Fazer os cálculos com as colunas de porcentagem (variação semanal; mensal; anual e 12 meses);  
-- Pegar via Chat GPT as faixas de idade;  
-- Pedir para o GPT gerar a fórmula IF para as faixas de idade.
+- Crie um gráfico de barras olhando a faixa etária e o valor da variação;
+- Faça outro gráfico de barras com a faixa etária e a quantidade de empresas que estão em cada faixa etária;
+- Explore os tipos de gráficos com os dados já feitos.
 
-<img src='https://github.com/rosacarla/analise-exploratoria-com-google-sheets/blob/main/images/aula01-solucao.png'>
+<img src=''>
 
 ---  
 
@@ -48,10 +48,10 @@ Contato: rosa.carla@pucpr.edu.br
 
 #### 🔗 LINKS ÚTEIS  
 
-[Análise exploratória: primeiros passos](https://www.alura.com.br/artigos/analise-exploratoria?_gl=1*v2kvnv*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQxOTkxMS4yMy4wLjE3MTE0MTk5MTEuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
-[O que é IA generativa?](https://www.alura.com.br/artigos/inteligencia-artificial-ia-generativa-chatgpt-gpt-midjourney?_gl=1*ltt5gj*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQyNjU5My4yNC4wLjE3MTE0MjY1OTMuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
-[Tendências e inovações no mercado financeiro | Hipsters](https://www.alura.com.br/podcast/hipsterstech-tendencias-e-inovacoes-no-mercado-financeiro-deep-dive-bradesco-1-hipsters-ponto-tech-361-a2326?_gl=1*ltt5gj*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQyNjU5My4yNC4wLjE3MTE0MjY1OTMuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
-[ChatGPT: dicas e como usar](https://www.alura.com.br/artigos/chatgpt?_gl=1*1czxbrx*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQyNjU5My4yNC4xLjE3MTE0MjY3MzguMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
+[O que é Google Colab?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar?_gl=1*1obtdxk*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQ3Nzc3OS4yNi4xLjE3MTE0Nzk0NDQuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
+[Pandas Python: o que é, para que serve e como instalar](https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar?_gl=1*j4i1dh*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQ3Nzc3OS4yNi4xLjE3MTE0Nzk4MjguMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
+[Ecossistema Python | Hipsters Ponto Tech](https://www.alura.com.br/podcast/hipsterstech-ecossistema-python-hipsters-ponto-tech-387-a9175?_gl=1*1r8pa05*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQ3Nzc3OS4yNi4xLjE3MTE0Nzk5MjMuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
+[IA dentro de empresas | Hipsters Ponto Tech](https://www.alura.com.br/podcast/hipsterstech-openai-sora-google-gemini-pro-1-5-ia-no-picpay-hipsters-fora-de-controle-45-a9238?_gl=1*5rrlev*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQ3Nzc3OS4yNi4xLjE3MTE0Nzk5NzcuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
 
 ---
 
