@@ -32,7 +32,7 @@ Projeto desenvolvido para criação gráficos e tabelas no Google Sheets, manipu
 - coluna VARIAÇÃO R$: `=SOMASE(Principal!T:T;A71;Principal!O:O)`
 - coluna QUANTIDADE DE EMPRESAS: `=CONT.SE(Principal!T:T;A71)`
 
-☑️ Ver [resolução no Google Sheets]().
+☑️ Ver [resolução no Google Sheets](https://docs.google.com/spreadsheets/d/1ybYb4sdnHts2VyavBV9TroK_gfeClFuMbYQWbCi4rGg/edit?usp=sharing).
 
 ---  
 
