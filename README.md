@@ -1,25 +1,38 @@
 #### 📈 GRÁFICOS E ANÁLISES COM GOOGLE COLAB E PYTHON PANDAS
 
-Projeto desenvolvido para ....  
+Projeto desenvolvido para criação gráficos e tabelas no Google Sheets, manipulação de dados com Python Pandas pelo Google Colab.
 É uma proposta de trabalho feita na <i>Imersão Python: Do Excel à Análise de Dados</i>, promovida pela Alura.    
 
 <img src=''>  
 
 ---
 
-#### 📄 FÓRMULAS DO GOOGLE SHEETS  
-- `Variação %` = Var. Dia %/100
-- `Valor inicial (R$)` =Último R$/(Variação % + 1)
-- `Quantidade de ações` =PROCV(Ativo;Total_de_acoes!A:B;2;0)
-- `Variação R$` =(Último R$ - Valor inicial (R$)) * Quantidade de ações
-- `Resultado` =SE(Variação R$>0;"Subiu";SE(Variação R$<0;"Desceu";"Estável"))
+#### 📄 FÓRMULAS DO GOOGLE SHEETS PARA ANÁLISE DE DADOS E GRÁFICOS  
 
-☑️ Ver [resolução]().
+1) Criação de tabelas com Métricas da coluna Variação R$
+- maior variação: `=MAIOR(Principal!O:O;1)`
+- menor variação: `=MENOR(Principal!O:O; 1)`
+- média da variação: `=MÉDIA(Principal!O:O)`
+- média de quem subiu: `=MÉDIASE(Principal!P:P;"Subiu";Principal!O:O)`
+- média de quem desceu: `=MÉDIASE(Principal!P:P;"Desceu";Principal!O:O)`
+- nome da empresa de maior variação: `=PROCV(B2;Principal!O:R;3;0)`
+- nome da empresa de menor variação: `=PROCV(B3;Principal!O:R;3;0)`
 
----  
+2) Criação de tabela com colunas "SEGMENTO, VARIAÇÃO R$, VARIAÇÃO DE QUEM SUBIU"
+- coluna SEGMENTO: `=UNIQUE(Principal!R2:R82)`
+- coluna  VARIAÇÃO R$: `=SOMASE(Principal!R:R;A13;Principal!O:O)`
+- coluna VARIAÇÃO DE QUEM SUBIU: `=SOMASES(Principal!O:O;Principal!R:R;A13;Principal!P:P;"Subiu")`
 
-#### 💬PROMPT DO CHATGPT PARA CRIAR NOVAS COLUNAS  
-<img src=''>  
+3) Criação de tabela com colunas "RESULTADO, VARIAÇÃO R$"
+- coluna RESULTADO: `=UNIQUE(Principal!P2:P82)`
+- coluna VARIAÇÃO R$: `=SOMASE(Principal!P:P;A61;Principal!O:O)`
+
+4) Criação de tabela com colunas "ANÁLISE POR IDADE, VARIAÇÃO R$, QUANTIDADE DE EMPRESAS"
+- coluna ANÁLISE POR IDADE: `=UNIQUE(Principal!T2:T82)`
+- coluna VARIAÇÃO R$: `=SOMASE(Principal!T:T;A71;Principal!O:O)`
+- coluna QUANTIDADE DE EMPRESAS: `=CONT.SE(Principal!T:T;A71)`
+
+☑️ Ver [resolução no Google Sheets]().
 
 ---  
 
@@ -30,7 +43,14 @@ Projeto desenvolvido para ....
 - Faça outro gráfico de barras com a faixa etária e a quantidade de empresas que estão em cada faixa etária;
 - Explore os tipos de gráficos com os dados já feitos.
 
-<img src=''>
+<img src=''>  
+
+---  
+
+#### ANÁLISE DE DADOS COM BIBLIOTECA PANDAS DO PYTHON  
+<img src=''>   
+
+☑️ Ver [notebook no Google Colab]().  
 
 ---  
 
@@ -54,7 +74,3 @@ Contato: rosa.carla@pucpr.edu.br
 [IA dentro de empresas | Hipsters Ponto Tech](https://www.alura.com.br/podcast/hipsterstech-openai-sora-google-gemini-pro-1-5-ia-no-picpay-hipsters-fora-de-controle-45-a9238?_gl=1*5rrlev*_ga*MTkyMTEwNTQ2Ni4xNzA5NTk0NTU0*_ga_1EPWSW3PCS*MTcxMTQ3Nzc3OS4yNi4xLjE3MTE0Nzk5NzcuMC4wLjA.*_fplc*TmtySU9mMkZvOXRhNkJFTnpuTHRsSDFMdU5lM0YzcyUyRlNjaDFOQ3pqOWU3Tk1QZFJvZWJXMyUyQkRTYnElMkZEJTJCMlA5bjZ4ZTFvUnZQSzhzcEt0ZCUyQjhaUlM4NjZyRkloNGxFUHN5VXB6dWtFOHhJeGRJTXVBTTdBelo0dUk4M0FuQSUzRCUzRA..)  
 
 ---
-
-
-
-
